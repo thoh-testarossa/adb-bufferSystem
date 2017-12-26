@@ -16,20 +16,29 @@ There are some parameters which can change the way of what this program running.
 
 1. Clone this project to your local machine and move to the root directory of this project
 
-    cd [path]/[to]/adb-BufferSystem
+```
+cd [path]/[to]/adb-BufferSystem
+```
 
 2. Create a build directory
 
-    mkdir build
-    cd build
+```
+mkdir build
+
+cd build
+```
 
 3. Execute cmake
 
-    cmake ..
+```
+cmake ..
+```
 
 4. Compile this project
 
-    make
+```
+make
+```
 
 After that, two executables will be generated, one called "IOCount", and the other called "dataGen"
 
